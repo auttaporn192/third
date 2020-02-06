@@ -1,0 +1,11 @@
+{
+  "type": "sqlite",
+  "database": "nest-test",
+  "entities": ["dist/**/*.entity.js"],
+  "synchronize": false,
+  "logging": true,
+  "migrations": ["dist/migration/*{.ts,.js}"],
+  "cli": {
+    "migrationsDir": "src/migration"
+  }
+}
