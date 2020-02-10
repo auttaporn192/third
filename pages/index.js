@@ -1,5 +1,4 @@
-function HomePage() {
-  return <div>Welcome to Next.js!</div>
-}
 
-export default HomePage
+import css from '../styles/style.scss'
+
+export default () => <div className={css.example}>Hello World!</div>
