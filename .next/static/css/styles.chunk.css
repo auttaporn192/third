@@ -1,14 +1,30 @@
 header {
   background: darkgreen;
   color: white;
-  height: 20px; }
+  overflow: auto;
+  padding: 20px 15px; }
   header nav {
-    float: right; }
+    float: left; }
     header nav a {
-      color: white; }
+      color: white;
+      padding: 10px; }
+      header nav a:hover {
+        color: blue; }
 
-.example {
-  font-size: 50px; }
+#pagination {
+  text-align: center;
+  padding: 100px; }
+  #pagination .pages {
+    margin: 0 auto;
+    background: whitesmoke;
+    display: inline-block; }
+    #pagination .pages li {
+      padding: 10px;
+      display: inline-block; }
+    #pagination .pages.hover {
+      background: pink; }
+    #pagination .pages.active {
+      background: yellow; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

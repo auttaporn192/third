@@ -1,11 +1,39 @@
 header{
     background: darkgreen;
     color: white;
-    height: 20px;
+    overflow: auto;
+    padding: 20px 15px;
 nav{
-    float: right;
+    float: left; 
+   
     a{
         color: white;
+        padding: 10px;
+        &:hover{
+            color: blue;
+        }
     }
+    
 }
+}
+
+#pagination{
+    text-align: center;
+    padding: 100px;
+    .pages {
+        margin: 0 auto;
+        background: whitesmoke;
+        display: inline-block;
+        li{
+            padding: 10px;
+            display: inline-block;
+        }
+        &.hover{
+            background: pink;
+        }
+        &.active{
+            background: yellow;
+        }
+        
+    }
 }
